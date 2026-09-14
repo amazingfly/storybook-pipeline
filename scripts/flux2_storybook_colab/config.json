@@ -1,0 +1,19 @@
+{
+  "version": "flux2-storybook-colab-v1",
+  "session": "lq-flux2-storybook-test",
+  "stop_session_after_recovery": true,
+  "base_model": "black-forest-labs/FLUX.2-klein-base-4B",
+  "lora_repo": "amazingfly/little-queen-flux2-klein-lora-v1",
+  "lora_weight_name": "littlequeen-flux2-klein-v1.safetensors",
+  "adapter_name": "little_queen",
+  "trigger": "LQK4N",
+  "style_prefix": "Polished children's storybook illustration, luminous painterly digital art, clear readable composition, expressive natural anatomy.",
+  "width": 832,
+  "height": 1216,
+  "num_inference_steps": 50,
+  "guidance_scale": 4.0,
+  "max_sequence_length": 512,
+  "memory_mode": "text_encoder_4bit",
+  "remote_root": "/content/flux2_storybook_test",
+  "local_output_root": "/mnt/storage/projects/agentic/images/flux2_littlequeen_v1/outputs/the_witches_trick_comparison"
+}

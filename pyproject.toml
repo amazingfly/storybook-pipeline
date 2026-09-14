@@ -1,0 +1,3 @@
+[tool.pytest.ini_options]
+testpaths = ["tests", "sdxl_littlequeen_v1/tests"]
+pythonpath = ["sdxl_littlequeen_v1", "sdxl_littlequeen_v1/scripts", "."]

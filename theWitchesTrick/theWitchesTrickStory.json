@@ -1,0 +1,1322 @@
+{
+  "version": "storybook-script-v2",
+  "title": "The Witch's Trick",
+  "settings": {
+    "candidates_per_scene": 10,
+    "seed_start": 420000,
+    "resolution": [
+      832,
+      1216
+    ],
+    "pre_roll_seconds": 0.5,
+    "post_roll_seconds": 0.5,
+    "fps": 30,
+    "tts": {
+      "engine": "piper",
+      "voice": "en_US-libritts_r-medium",
+      "length_scale": 1
+    }
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "A sweeping view of the Golden Kingdom beneath a clear blue sky, with sparkling rivers winding beside green meadows, golden-roofed cottages, and a bright castle on a distant hill.",
+      "script": "Beneath endless blue skies and beside sparkling rivers lay the Golden Kingdom."
+    },
+    {
+      "scene": 2,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands in warm sunlight at the heart of the Golden Kingdom as a gentle golden glow shines from her heart.",
+      "script": "At its heart lived a Little Queen known for kindness and golden light."
+    },
+    {
+      "scene": 3,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen plays happily in a flowered meadow with her four friends: a wise owl, clever red fox, gentle deer, and strong brown bear.",
+      "script": "She spent joyful days playing with her four faithful animal friends."
+    },
+    {
+      "scene": 4,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen helps villagers in a sunny marketplace, carrying a basket for an elderly villager while smiling warmly at nearby children and shopkeepers.",
+      "script": "Whenever someone needed help, she offered kindness, smiles, and gentle words."
+    },
+    {
+      "scene": 5,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "A silver-haired woman enters the Golden Kingdom through an arched stone gate while villagers pause to watch her approach along the sunlit road.",
+      "script": "Then one day, a mysterious new woman entered the kingdom."
+    },
+    {
+      "scene": 6,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The new woman stands calmly near the village gate, appearing kindly with silver hair, soft green eyes, flowing pale robes, and a gentle smile.",
+      "script": "She looked kind, with silver hair and soft green eyes."
+    },
+    {
+      "scene": 7,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The silver-haired woman walks through the marketplace carrying a woven basket of colourful sweets and offering them freely to delighted villagers.",
+      "script": "She carried a basket of sweets and shared them with everyone."
+    },
+    {
+      "scene": 8,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The silver-haired woman addresses gathered villagers in the marketplace, one hand over her heart while the bright kingdom rises behind them.",
+      "script": "\"I have heard of your beautiful kingdom,\" she said sweetly."
+    },
+    {
+      "scene": 9,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The woman smiles humbly before the villagers, holding her basket close as families and merchants listen with welcoming expressions.",
+      "script": "\"I wish to become a part of it.\""
+    },
+    {
+      "scene": 10,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Villagers welcome the silver-haired woman with handshakes, flowers, and friendly smiles beneath colourful marketplace awnings.",
+      "script": "The villagers welcomed her warmly and made her feel at home."
+    },
+    {
+      "scene": 11,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The silver-haired woman becomes a familiar marketplace figure, chatting gently with bakers, merchants, children, and farmers as she distributes sweets.",
+      "script": "Soon, she was always smiling and speaking gently in the marketplace."
+    },
+    {
+      "scene": 12,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen passes the silver-haired woman beside a fruit stall and gives her a warm wave while the woman smiles back.",
+      "script": "Even the Little Queen greeted the newcomer warmly whenever they met."
+    },
+    {
+      "scene": 13,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "As the silver-haired woman walks away through the marketplace, the wise owl watches her from a wooden signpost with narrowed, uneasy eyes.",
+      "script": "Only the wise owl watched the newcomer with quiet unease."
+    },
+    {
+      "scene": 14,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "Across the marketplace, villagers cheer as the Little Queen helps a small child, while the silver-haired woman's gentle smile briefly tightens with hidden jealousy.",
+      "script": "When the villagers praised the Queen, the woman's smile briefly tightened."
+    },
+    {
+      "scene": 15,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The cheerful marketplace grows subtly uneasy as long shadows stretch across the cobblestones and the silver-haired woman watches from beneath an awning.",
+      "script": "But before long, strange troubles began throughout the peaceful kingdom."
+    },
+    {
+      "scene": 16,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "At dawn, the village baker unlocks his bakery and freezes in shock at the disorder visible inside.",
+      "script": "The first trouble came to the baker early one morning."
+    },
+    {
+      "scene": 17,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Inside the bakery, flour covers the floor, shelves stand empty, overturned bowls lie scattered, and ruined bread dough slumps across a worktable.",
+      "script": "His flour was spilled, his shelves emptied, and his dough ruined."
+    },
+    {
+      "scene": 18,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The baker stands amid the floury wreckage with both hands raised in bewilderment and distress.",
+      "script": "\"Who could have done this?\" the bewildered baker cried."
+    },
+    {
+      "scene": 19,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Outside the bakery doorway, the baker bends toward a small golden ribbon lying conspicuously on the cobblestone street.",
+      "script": "Outside, he found a small golden ribbon on the ground."
+    },
+    {
+      "scene": 20,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The baker studies the small golden ribbon in his palm, recognizing its familiar royal color as concern crosses his face.",
+      "script": "\"The Little Queen wears golden ribbons,\" he murmured uneasily."
+    },
+    {
+      "scene": 21,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "That afternoon, a worried shepherd runs into the village square, waving his arms while several villagers turn toward him.",
+      "script": "That afternoon, the shepherd came running into the village."
+    },
+    {
+      "scene": 22,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The shepherd points desperately toward an open wooden meadow gate beyond the village, with empty pasture visible behind him.",
+      "script": "\"The meadow gate was left wide open!\" he shouted."
+    },
+    {
+      "scene": 23,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "A wide meadow shows scattered sheep wandering toward distant hills while the shepherd looks on in alarm.",
+      "script": "\"My sheep have wandered away!\""
+    },
+    {
+      "scene": 24,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The shepherd kneels in the grass beside the open gate and notices a tiny purple flower caught between the blades.",
+      "script": "Then he noticed something purple fluttering softly in the grass."
+    },
+    {
+      "scene": 25,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "A close view of the shepherd holding the tiny purple meadow flower between his fingers, troubled by how familiar it looks.",
+      "script": "It was a flower the Little Queen often picked nearby."
+    },
+    {
+      "scene": 26,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The shepherd looks toward the distant castle while holding the flower, his expression clouded by doubt.",
+      "script": "\"The Little Queen was here yesterday,\" the shepherd whispered."
+    },
+    {
+      "scene": 27,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Small groups of villagers whisper together around wells, stalls, and doorways while glancing nervously toward the castle.",
+      "script": "Soon, uncertain murmurs spread throughout the village."
+    },
+    {
+      "scene": 28,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Villagers gather around the golden ribbon and purple flower, studying the planted clues with conflicted, doubtful expressions.",
+      "script": "She had always been kind—but what if the clues were true?"
+    },
+    {
+      "scene": 29,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The silver-haired woman stands among the worried villagers, lowering her eyes and giving a carefully sorrowful sigh.",
+      "script": "Among them, the kindly old woman sighed sadly."
+    },
+    {
+      "scene": 30,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The silver-haired woman speaks softly to the crowd, appearing sympathetic while secretly watching their reactions.",
+      "script": "\"The Little Queen is young, after all,\" she said."
+    },
+    {
+      "scene": 31,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The woman gently raises one hand as though excusing a child, while doubt deepens across the villagers' faces.",
+      "script": "\"Perhaps she does not understand the trouble she causes.\""
+    },
+    {
+      "scene": 32,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "A worried village street lies under gathering clouds, with fresh signs of disorder as people hurry between damaged stalls and doorways.",
+      "script": "Day after day, the strange trouble continued spreading."
+    },
+    {
+      "scene": 33,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "A merchant's wooden cart lies tipped across the road, with apples, pears, and oranges rolling over the cobblestones.",
+      "script": "The merchant's cart overturned, spilling fruit across the road."
+    },
+    {
+      "scene": 34,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Villagers gather around the central stone fountain, now clogged with mud and barely trickling.",
+      "script": "The village fountain became clogged with thick brown mud."
+    },
+    {
+      "scene": 35,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Inside the castle's grand hall, servants stare in horror at bright paint smeared across elegant golden walls and columns.",
+      "script": "Someone smeared paint across the castle's beautiful grand hall."
+    },
+    {
+      "scene": 36,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Golden thread, a purple meadow flower, and a tiny false shoeprint are arranged conspicuously on a rough wooden evidence table.",
+      "script": "Everywhere, another small clue seemed to point toward the Queen."
+    },
+    {
+      "scene": 37,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Villagers gather tightly in the square with crossed arms and troubled faces as their uncertainty turns into frustration.",
+      "script": "The people grew restless, suspicious, and increasingly angry."
+    },
+    {
+      "scene": 38,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "An upset villager gestures toward the ruined fountain while neighbours nod around him.",
+      "script": "\"How could the Little Queen do this?\" someone demanded."
+    },
+    {
+      "scene": 39,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Another villager points accusingly toward the distant castle rising over the rooftops.",
+      "script": "\"She is supposed to be our protector!\""
+    },
+    {
+      "scene": 40,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Several villagers exchange disappointed looks while holding the ribbon, flower, and other supposed evidence.",
+      "script": "\"Maybe she was never as kind as we believed.\""
+    },
+    {
+      "scene": 41,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The silver-haired woman stands at the centre of the gathering, slowly shaking her head with an expression of false sorrow.",
+      "script": "The old woman stood among them, sadly shaking her head."
+    },
+    {
+      "scene": 42,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The woman addresses the crowd in a soft, reasonable manner while subtly encouraging their anger.",
+      "script": "\"She may not mean harm, but harm was done.\""
+    },
+    {
+      "scene": 43,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Whispering villagers fill the marketplace, their faces growing sharper and their gestures more forceful as doubt hardens into anger.",
+      "script": "Their doubts became suspicion, and their suspicion became anger."
+    },
+    {
+      "scene": 44,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "A determined crowd leaves the village square and marches uphill toward the golden castle while the silver-haired woman follows behind.",
+      "script": "Before long, their anger carried them toward the castle."
+    },
+    {
+      "scene": 45,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "In a peaceful castle garden, the Little Queen sits among wildflowers, calmly weaving blossoms into a delicate flower crown.",
+      "script": "The Little Queen sat peacefully, braiding a crown of wildflowers."
+    },
+    {
+      "scene": 46,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen sits at the center of the castle garden while the wise owl, clever fox, gentle deer, and strong bear relax nearby among the flowers.",
+      "script": "Her four faithful friends rested nearby in the peaceful garden."
+    },
+    {
+      "scene": 47,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The castle's tall garden doors suddenly burst open behind the startled Little Queen, scattering petals across the path.",
+      "script": "Suddenly, the great castle doors burst open."
+    },
+    {
+      "scene": 48,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Angry and disappointed villagers crowd into the garden, led by the baker, shepherd, and silver-haired woman.",
+      "script": "The villagers crowded inside, tense with anger and disappointment."
+    },
+    {
+      "scene": 49,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen rises quickly, clutching her unfinished flower crown as her golden heart-light trembles.",
+      "script": "Her heart pounded as she asked, \"What is wrong?\""
+    },
+    {
+      "scene": 50,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The baker steps forward before the crowd, pointing toward the Little Queen while holding the golden ribbon.",
+      "script": "\"You ruined all my flour!\" the baker accused."
+    },
+    {
+      "scene": 51,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The shepherd follows, holding the purple flower and gesturing toward the distant meadow.",
+      "script": "\"You opened my gate and lost my sheep!\""
+    },
+    {
+      "scene": 52,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "Several villagers shout together, accusing the Little Queen of overturning the cart, clogging the fountain, and painting the walls.",
+      "script": "One accusation after another crashed over the Little Queen."
+    },
+    {
+      "scene": 53,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands frozen in the garden, shocked and hurt as the flower crown slips from her hands.",
+      "script": "\"But I did none of those things!\" she cried."
+    },
+    {
+      "scene": 54,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The clever fox moves protectively beside the Little Queen, while the deer and bear step closer and the wise owl lands above her.",
+      "script": "At once, her faithful friends gathered closely around her."
+    },
+    {
+      "scene": 55,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen looks at the loyal owl, fox, deer, and bear as their steady presence helps her golden heart-light stop trembling.",
+      "script": "Their quiet loyalty helped her frightened golden light grow steady."
+    },
+    {
+      "scene": 56,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The silver-haired woman moves smoothly to the front of the crowd, wearing a patient and sorrowful expression.",
+      "script": "The old woman sighed and stepped before the crowd."
+    },
+    {
+      "scene": 57,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The woman looks down at the Little Queen with false sympathy while the villagers watch.",
+      "script": "\"The people are upset with you, little Queen.\""
+    },
+    {
+      "scene": 58,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The silver-haired woman tilts her head and gestures toward the many angry villagers behind her.",
+      "script": "\"Perhaps you should think carefully about why.\""
+    },
+    {
+      "scene": 59,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The warm golden glow around the Little Queen's heart briefly dims and flickers beneath the weight of the accusations.",
+      "script": "For one painful moment, the Queen's golden light flickered."
+    },
+    {
+      "scene": 60,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen lifts her head and faces the crowd with honest determination despite her hurt.",
+      "script": "\"I did not do these things,\" she repeated."
+    },
+    {
+      "scene": 61,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The villagers fall quieter, exchanging uncertain glances while still clutching the planted clues.",
+      "script": "The villagers frowned and looked uncertainly at one another."
+    },
+    {
+      "scene": 62,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The golden ribbon, purple flower, golden thread, and tiny shoeprint are displayed together before the doubtful villagers.",
+      "script": "Every clue they had found seemed to accuse her."
+    },
+    {
+      "scene": 63,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen turns directly toward the silver-haired woman, studying her face for the first time with suspicion.",
+      "script": "\"Why are you saying these things?\" the Queen asked."
+    },
+    {
+      "scene": 64,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The silver-haired woman gives a small, sad smile and presses one hand dramatically to her heart.",
+      "script": "\"Because I care about the harm being done, dear child.\""
+    },
+    {
+      "scene": 65,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands very still, studying the silver-haired woman as her faint golden heart-light steadies.",
+      "script": "The Little Queen studied her carefully. Something was terribly wrong."
+    },
+    {
+      "scene": 66,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The wise owl suddenly spreads his wings and gives a sharp warning cry while staring past the Little Queen at the silver-haired woman.",
+      "script": "Beside her, the wise owl suddenly gave a warning cry."
+    },
+    {
+      "scene": 67,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "Following the wise owl's gaze, the Little Queen sees the silver-haired woman's long shadow stretching across the garden stones.",
+      "script": "The Little Queen followed his gaze toward the woman's shadow."
+    },
+    {
+      "scene": 68,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The woman's shadow twists into clawed, curling shapes across the ground, moving differently from her calm body.",
+      "script": "It twisted and curled in ways no true shadow should."
+    },
+    {
+      "scene": 69,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stares at the monstrous shadow while the apparently kind woman continues smiling above it.",
+      "script": "That shadow could never belong to a kindly woman."
+    },
+    {
+      "scene": 70,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen points toward the unnatural shadow, her eyes widening with sudden understanding.",
+      "script": "\"A witch,\" the Little Queen whispered."
+    },
+    {
+      "scene": 71,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The villagers gasp and recoil as they finally notice the twisted shadow stretching beneath the silver-haired woman.",
+      "script": "A frightened gasp swept through the entire crowd."
+    },
+    {
+      "scene": 72,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The silver-haired woman's gentle smile widens unnaturally and twists into a cold, cruel grin.",
+      "script": "The old woman's sweet smile became cruel."
+    },
+    {
+      "scene": 73,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The single silver-haired woman transforms mid-motion into a witch: her hair darkens, green eyes blaze, pale robes become swirling black fabric, and shadow magic rises around her.",
+      "script": "Her disguise dissolved, revealing the wicked witch beneath."
+    },
+    {
+      "scene": 74,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The witch's woven basket tumbles open at her feet, revealing spare golden ribbons, pressed purple flowers, golden thread, tiny false shoeprints, a muddy cloth, and a paintbrush.",
+      "script": "Her fallen basket revealed every false clue she had planted."
+    },
+    {
+      "scene": 75,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The revealed witch throws back her head and laughs while black robes and green magic whirl through the castle garden.",
+      "script": "\"Oh, Little Queen, you are clever,\" the witch laughed."
+    },
+    {
+      "scene": 76,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The baker, shepherd, and other villagers stumble backward in alarm from the transformed witch.",
+      "script": "The villagers stumbled backward, frightened and confused."
+    },
+    {
+      "scene": 77,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The strong bear steps between the witch and the frightened villagers, while the gentle deer guides several children safely behind him.",
+      "script": "The bear shielded the crowd while the deer led children back."
+    },
+    {
+      "scene": 78,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The clever fox bares his teeth at the witch as the wise owl circles above her swirling black robes.",
+      "script": "The fox stood ready while the owl circled overhead."
+    },
+    {
+      "scene": 79,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "A shocked villager points at the witch while the crowd begins understanding the deception.",
+      "script": "\"She tricked us?\" someone asked in horror."
+    },
+    {
+      "scene": 80,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands tall between the frightened villagers and the witch, her golden heart-light strengthening.",
+      "script": "\"Yes,\" the Little Queen answered, standing tall."
+    },
+    {
+      "scene": 81,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen points toward the witch while the planted ribbon, flower, thread, and false footprint lie exposed beside the witch's fallen basket.",
+      "script": "\"She caused the trouble and planted every clue.\""
+    },
+    {
+      "scene": 82,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen faces the villagers as the witch watches with a smug smile behind her.",
+      "script": "\"She wanted every one of you against me.\""
+    },
+    {
+      "scene": 83,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The villagers lower their eyes, their anger replaced by shame as the truth becomes clear.",
+      "script": "The villagers lowered their eyes as the truth became clear."
+    },
+    {
+      "scene": 84,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The baker looks from the ruined ribbon evidence to the witch, bewildered and upset.",
+      "script": "\"But why would you do this?\" he asked."
+    },
+    {
+      "scene": 85,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The witch circles the Little Queen with a jealous expression while dark green sparks curl around her fingers.",
+      "script": "\"Because your Little Queen is too loved and trusted.\""
+    },
+    {
+      "scene": 86,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The witch gestures toward the Little Queen's golden heart-light as shadowy tendrils reach toward it.",
+      "script": "\"Without their belief, her precious light will fade.\""
+    },
+    {
+      "scene": 87,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen clenches her fists and plants her feet firmly as her golden glow steadies.",
+      "script": "The Little Queen clenched her fists and faced the witch."
+    },
+    {
+      "scene": 88,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "Warm golden light grows from the Little Queen's heart, illuminating her Moonstar regalia and determined face.",
+      "script": "\"My light comes from who I truly am.\""
+    },
+    {
+      "scene": 89,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands radiant before the witch while the villagers watch in growing hope.",
+      "script": "\"No one, not even you, can take it away.\""
+    },
+    {
+      "scene": 90,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The witch narrows her blazing green eyes and leans forward with a threatening smile.",
+      "script": "\"We shall see about that,\" the witch hissed."
+    },
+    {
+      "scene": 91,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The witch raises both hands as dark green and black magic spirals into a storm above the garden.",
+      "script": "She raised her hands, gathering a storm of dark magic."
+    },
+    {
+      "scene": 92,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The witch hurls a swirling wave of dark green magic across the castle garden, while the Little Queen steps forward and raises a radiant golden shield.",
+      "script": "The witch struck, but the Queen's golden light rose like a shield."
+    },
+    {
+      "scene": 93,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "Dark green magic crashes against the Little Queen's golden shield as the bear braces behind her, the deer shelters the children, and the fox and owl remain alert.",
+      "script": "Dark magic crashed against the shield, but her light held firm."
+    },
+    {
+      "scene": 94,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen addresses the witch firmly while golden light pushes back the surrounding shadows.",
+      "script": "\"You tricked everyone into blaming me,\" she said."
+    },
+    {
+      "scene": 95,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen holds her glowing shield steady and looks toward the villagers while the witch's shadows press against it.",
+      "script": "\"She planted the clues, but you chose whether to believe them.\""
+    },
+    {
+      "scene": 96,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "Shadowy tendrils crawl across the golden shield, but the Little Queen plants her feet and keeps its warm light shining.",
+      "script": "The witch's shadows pressed harder, yet the Queen did not move."
+    },
+    {
+      "scene": 97,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "Keeping her golden shield raised, the Little Queen turns fully toward the gathered villagers while the witch waits angrily behind it.",
+      "script": "Keeping her shield raised, she turned toward the villagers."
+    },
+    {
+      "scene": 98,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands before the villagers as they hold the ribbon, flower, thread, and false shoeprint and listen closely.",
+      "script": "\"You found ribbons, flowers, and footprints—and called them proof.\""
+    },
+    {
+      "scene": 99,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen opens one hand in a calm question while the villagers reconsider everything they believed.",
+      "script": "\"But none of you actually saw me cause the trouble.\""
+    },
+    {
+      "scene": 100,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen looks gently but directly across the crowd of bakers, shepherds, merchants, and castle workers.",
+      "script": "\"And no one asked me what had really happened.\""
+    },
+    {
+      "scene": 101,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The villagers exchange remorseful glances, lower their accusing hands, and begin dropping the false clues.",
+      "script": "Guilt spread across the faces of the villagers."
+    },
+    {
+      "scene": 102,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The baker and shepherd bow their heads while the crowd answers together in quiet regret.",
+      "script": "\"No,\" they admitted. \"We never asked you.\""
+    },
+    {
+      "scene": 103,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The golden ribbon, purple flower, golden thread, and tiny shoeprint crumble into wisps of black smoke in the villagers' hands.",
+      "script": "One by one, the false clues dissolved into witch-smoke."
+    },
+    {
+      "scene": 104,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen turns back toward the witch, now surrounded by a steady halo of warm golden light.",
+      "script": "The Little Queen faced the witch once more."
+    },
+    {
+      "scene": 105,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands firmly as shadowy chains of blame dissolve before touching her glowing heart.",
+      "script": "\"I will not carry the blame for your choices.\""
+    },
+    {
+      "scene": 106,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "A brilliant wave of golden light bursts outward from the Little Queen, filling the garden with warmth.",
+      "script": "Her golden light flared brighter than ever before."
+    },
+    {
+      "scene": 107,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Bands of warm golden light wrap around the witch while her black shadows recoil and tear apart.",
+      "script": "The witch shrieked as golden light surrounded her."
+    },
+    {
+      "scene": 108,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The witch's dark spell unravels into harmless smoke and green sparks beneath a powerful wave of warm golden magic.",
+      "script": "Her shadows broke apart, and her magic began unravelling."
+    },
+    {
+      "scene": 109,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The trapped witch reaches outward desperately as her swirling black robes dissolve at the edges.",
+      "script": "\"No! This is not how it should end!\""
+    },
+    {
+      "scene": 110,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen releases one final brilliant golden burst, and the witch vanishes into a furious whirl of black smoke beyond the castle walls.",
+      "script": "With a furious shriek, the witch vanished into swirling black smoke."
+    },
+    {
+      "scene": 111,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The castle garden falls quiet, with villagers standing motionless among fading golden sparkles and scattered flower petals.",
+      "script": "For a moment, the villagers stood in stunned silence."
+    },
+    {
+      "scene": 112,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The baker steps forward humbly, removes his cap, and bows to the Little Queen.",
+      "script": "\"We are truly sorry,\" the baker said softly."
+    },
+    {
+      "scene": 113,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The shepherd stands beside the baker, holding the purple flower regretfully before lowering it.",
+      "script": "\"We should have trusted you,\" the shepherd added."
+    },
+    {
+      "scene": 114,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen gives the villagers a gentle, forgiving smile as her friends gather beside her.",
+      "script": "The Little Queen smiled gently at all of them."
+    },
+    {
+      "scene": 115,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen lifts the fallen flower crown and carefully reshapes it while speaking to the listening villagers.",
+      "script": "\"Everyone makes mistakes,\" she told them kindly."
+    },
+    {
+      "scene": 116,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands before the crowd as faint images of rumours and false clues dissolve in the golden air.",
+      "script": "\"Whispers and tricks cannot decide who someone truly is.\""
+    },
+    {
+      "scene": 117,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The villagers stand thoughtfully together while the Little Queen gestures toward the damaged kingdom around them.",
+      "script": "\"What matters most is what we choose to do next.\""
+    },
+    {
+      "scene": 118,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The baker, shepherd, merchant, and other villagers nod, roll up their sleeves, and prepare to repair the damage together.",
+      "script": "The villagers nodded—and this time, they acted."
+    },
+    {
+      "scene": 119,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Inside the bakery, the baker sweeps spilled flour while neighbours carry in fresh sacks and repair the empty shelves.",
+      "script": "The baker cleaned his shop while neighbours replaced every ruined sack."
+    },
+    {
+      "scene": 120,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "In the meadow, the shepherd, gentle deer, and clever fox guide every wandering sheep through the newly repaired wooden gate.",
+      "script": "The shepherd and the Queen's friends brought every sheep safely home."
+    },
+    {
+      "scene": 121,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "The strong bear helps lift the merchant's cart upright while villagers gather scattered fruit and scrub mud from the fountain.",
+      "script": "The bear raised the cart while others cleaned the muddy fountain."
+    },
+    {
+      "scene": 122,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "Villagers and castle workers scrub away the painted marks until the golden walls of the grand hall gleam once more.",
+      "script": "Together, they scrubbed the grand hall until it gleamed again."
+    },
+    {
+      "scene": 123,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "A wide morning view of the restored Golden Kingdom village shows a busy bakery, safely fenced sheep meadow, upright fruit carts, and a sparkling clean fountain in one coherent landscape.",
+      "script": "Soon, peace and happiness returned throughout the Golden Kingdom."
+    },
+    {
+      "scene": 124,
+      "loras": {
+        "characters": {}
+      },
+      "prompt": "In the restored marketplace, villagers calmly ask questions and listen to one another while discarded rumours drift away like fading grey mist.",
+      "script": "From then on, they asked questions before following angry whispers."
+    },
+    {
+      "scene": 125,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands centered on a castle balcony at sunset with the wise owl, clever fox, gentle deer, and strong bear as her golden light shines across the kingdom.",
+      "script": "And the Little Queen's golden light shone brighter than ever."
+    }
+  ]
+}

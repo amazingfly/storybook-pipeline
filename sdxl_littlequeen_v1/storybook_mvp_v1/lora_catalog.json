@@ -1,0 +1,47 @@
+{
+  "version": "storybook-lora-catalog-v1",
+  "loras": {
+    "little_queen_v2": {
+      "category": "character",
+      "mode": "base",
+      "label": "Little Queen identity",
+      "path": "models/loras/lqxl_sdxl_v2.safetensors",
+      "adapter": "little_queen",
+      "trigger": "lqxl Little Queen",
+      "default_weight": 0.76,
+      "validation_references": [
+        "outputs/lora_v2_local100/production_20260719/image_01_seed_98001.png",
+        "outputs/lora_v2_local100/production_20260719/image_04_seed_98004.png",
+        "outputs/lora_v2_local100/production_20260719/image_06_seed_98006.png",
+        "outputs/lora_v2_local100/production_20260719/image_13_seed_98013.png"
+      ]
+    },
+    "moon_dress_v1": {
+      "category": "outfit",
+      "mode": "base",
+      "label": "Moon storybook dress",
+      "path": "models/loras/lqmoonfit_sdxl_v1.safetensors",
+      "adapter": "moon_dress",
+      "trigger": "lqmoonfit",
+      "default_weight": 0.5
+    },
+    "moonstar_accessories_v1": {
+      "category": "extra",
+      "mode": "moonstar_regional_set",
+      "label": "Moonstar crown, jewelry, and wand",
+      "default_weight": 1.0,
+      "files": [
+        {
+          "role": "regalia",
+          "path": "models/loras/lqmoonregalia_sdxl_v4.safetensors",
+          "adapter": "regalia"
+        },
+        {
+          "role": "wand",
+          "path": "models/loras/lqmoonwand_sdxl_v4.safetensors",
+          "adapter": "wand"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "version": "storybook-script-v2",
+  "title": "The Little Queen and the Lantern Star",
+  "settings": {
+    "candidates_per_scene": 10,
+    "seed_start": 240000,
+    "resolution": [
+      832,
+      1216
+    ],
+    "pre_roll_seconds": 0.5,
+    "post_roll_seconds": 0.5,
+    "fps": 30,
+    "tts": {
+      "engine": "piper",
+      "voice": "en_US-libritts_r-medium",
+      "length_scale": 1
+    }
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands upright in a warm royal library, holding her vertical Moonstar wand at waist height beside her body, while a tiny fallen star glows on an open book.",
+      "script": "One quiet evening, the Little Queen found a tiny fallen star glowing between the pages of an old library book."
+    },
+    {
+      "scene": 2,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands on a broad autumn garden path at dusk, holding her vertical Moonstar wand at waist height beside her body, with the little star floating safely near her shoulder.",
+      "script": "She carried the star through the autumn garden, following its soft golden light toward the highest castle tower."
+    },
+    {
+      "scene": 3,
+      "loras": {
+        "characters": {
+          "little_queen": {
+            "identity": "little_queen_v2",
+            "outfit": "moon_dress_v1",
+            "accessories": "moonstar_accessories_v1"
+          }
+        }
+      },
+      "prompt": "The Little Queen stands upright on a castle observatory terrace beneath a clear night sky, holding her vertical Moonstar wand at waist height as the little star rises toward its constellation.",
+      "script": "At the observatory, the Little Queen raised the star home, and the whole sky sparkled to thank her."
+    }
+  ]
+}

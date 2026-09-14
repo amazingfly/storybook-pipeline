@@ -1,0 +1,68 @@
+{
+  "name": "littlequeen_storybook_accessories_v2_local100_q8",
+  "binary": "../sdxl_littlequeen_v1/.tooling/stable-diffusion.cpp/build-cpu/bin/sd-cli",
+  "model": "../sdxl_littlequeen_v1/models/quantized/sd_xl_base_1.0-q8_0.gguf",
+  "lora_dir": "../sdxl_littlequeen_v1/models/loras",
+  "identity_lora": "lqxl_sdxl_v2",
+  "lcm_lora": "lcm-lora-sdxl",
+  "accessory_set": "../sdxl_littlequeen_v1/storybook_accessories_v1/accessory_set.json",
+  "compositor": "../sdxl_littlequeen_v1/scripts/apply_storybook_accessories.py",
+  "output_root": "outputs/storybook_v2_local100",
+  "log_root": "logs/storybook_v2_local100",
+  "generation": {
+    "width": 768,
+    "height": 1024,
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "sampling_method": "lcm",
+    "scheduler": "discrete",
+    "threads": 6,
+    "rng": "cpu",
+    "mmap": true
+  },
+  "inpaint": {
+    "steps": 8,
+    "cfg_scale": 1.0,
+    "strength": 0.16
+  },
+  "weights": [0.35, 0.50, 0.65, 0.80],
+  "scenes": [
+    "standing calmly in a sunlit rose garden, both open hands visible",
+    "walking beside a palace courtyard fountain, both empty hands visible",
+    "turning gently in a grand marble hall, both empty hands visible",
+    "standing on a windy cloudy hill, both open hands visible",
+    "walking beside a quiet woodland stream, both empty hands visible",
+    "turning gently on a bright village street, both empty hands visible",
+    "standing beside a quiet crystal lake, both open hands visible",
+    "walking in a stone castle courtyard, both empty hands visible",
+    "turning gently under evening stars, both empty hands visible",
+    "standing in a golden autumn forest, both open hands visible",
+    "walking in a flowering castle greenhouse, both empty hands visible",
+    "turning gently on a sunset balcony, both empty hands visible",
+    "standing in a quiet snowy courtyard, both open hands visible",
+    "walking past a lantern festival, both empty hands visible",
+    "turning gently in a glowing crystal cavern, both empty hands visible",
+    "standing in a storybook library, both open hands visible",
+    "walking along a windy seaside path, both empty hands visible",
+    "turning gently near a misty waterfall, both empty hands visible",
+    "standing in a wildflower meadow, both open hands visible",
+    "walking across an ancient moonlit bridge, both empty hands visible",
+    "turning gently on grand garden steps, both empty hands visible",
+    "standing in a colorful village market, both open hands visible",
+    "walking along a high windy cliff, both empty hands visible",
+    "turning gently in a peaceful sanctuary, both empty hands visible",
+    "standing in a rose and ivy flower maze, both open hands visible"
+  ],
+  "prompts": {
+    "positive_template": "wide full-body storybook view with generous clear space above the hair and both shoes inside frame, solo, lqxl Little Queen, bare uncovered auburn hair with straight bangs, completely bare head, plain ears, bare neck and wrists, empty hands, {scene}, polished anime storybook illustration",
+    "negative": "crown, tiara, diadem, circlet, headband, hat, head ornament, hair ornament, flower in hair, wand, staff, scepter, sword, weapon, earrings, necklace, bracelet, wrist jewelry, cropped head, cropped feet, close-up, duplicate, two people, extra limbs, text, watermark",
+    "blend_positive": "same exact page and unchanged accessories, natural hair contact at the crown band, earrings attached at the ears, necklace resting at the collar, fingers naturally wrapped around the unchanged straight gold staff, polished anime storybook shading",
+    "blend_negative": "different crown, different wand, changed jewelry, missing prop, extra prop, duplicate, bent staff, changed face, changed outfit, changed scene, text, watermark"
+  },
+  "memory": {
+    "sample_interval_seconds": 1.0,
+    "minimum_available_mb": 1200,
+    "maximum_process_rss_mb": 13500,
+    "maximum_swap_used_mb": 12000
+  }
+}

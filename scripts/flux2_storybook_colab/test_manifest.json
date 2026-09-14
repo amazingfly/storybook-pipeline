@@ -1,0 +1,48 @@
+{
+  "version": "flux2-storybook-comparison-v1",
+  "purpose": "Controlled identity and prompt-adherence comparison against the prior SDXL Witches Trick run.",
+  "jobs": [
+    {
+      "id": "scene_002_weight_080",
+      "scene": 2,
+      "seed": 420020,
+      "lora_scale": 0.8,
+      "prompt": "The Little Queen stands in warm sunlight at the heart of the Golden Kingdom as a gentle golden glow shines from her heart."
+    },
+    {
+      "id": "scene_002_weight_100",
+      "scene": 2,
+      "seed": 420020,
+      "lora_scale": 1.0,
+      "prompt": "The Little Queen stands in warm sunlight at the heart of the Golden Kingdom as a gentle golden glow shines from her heart."
+    },
+    {
+      "id": "scene_088_weight_080",
+      "scene": 88,
+      "seed": 420880,
+      "lora_scale": 0.8,
+      "prompt": "Warm golden light grows from the Little Queen's heart, illuminating her Moonstar regalia and determined face."
+    },
+    {
+      "id": "scene_088_weight_100",
+      "scene": 88,
+      "seed": 420880,
+      "lora_scale": 1.0,
+      "prompt": "Warm golden light grows from the Little Queen's heart, illuminating her Moonstar regalia and determined face."
+    },
+    {
+      "id": "scene_092_weight_080",
+      "scene": 92,
+      "seed": 420920,
+      "lora_scale": 0.8,
+      "prompt": "The witch hurls a swirling wave of dark green magic across the castle garden, while the Little Queen steps forward and raises a radiant golden shield."
+    },
+    {
+      "id": "scene_092_weight_100",
+      "scene": 92,
+      "seed": 420920,
+      "lora_scale": 1.0,
+      "prompt": "The witch hurls a swirling wave of dark green magic across the castle garden, while the Little Queen steps forward and raises a radiant golden shield."
+    }
+  ]
+}
