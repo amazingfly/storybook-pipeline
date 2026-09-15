@@ -77,3 +77,9 @@ include the actual backend source rather than those adapters.
 See [migration notes](docs/migration.md) for provenance and compatibility paths,
 and [the repository roadmap](https://github.com/amazingfly/media-pipeline/blob/main/docs/organization.md)
 for the remaining organizational work.
+
+See [workflow support status](docs/workflows.md). Use `python scripts/workspace.py doctor`
+to check centralized checkout/interpreter configuration, and
+`python scripts/workspace.py run --component storybook -- {python} SCRIPT [ARGS]`
+to launch with shared paths. Workspace setup is documented in
+[media-pipeline](https://github.com/amazingfly/media-pipeline/blob/main/docs/workspace.md).

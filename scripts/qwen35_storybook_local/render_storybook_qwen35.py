@@ -3,10 +3,22 @@
 
 from __future__ import annotations
 
+# Load centralized workstation defaults; explicit environment/CLI values win.
+import sys as _workspace_sys
+from pathlib import Path as _WorkspacePath
+for _workspace_root in _WorkspacePath(__file__).resolve().parents:
+    if (_workspace_root / "media_workspace").is_dir():
+        _workspace_sys.path.insert(0, str(_workspace_root))
+        break
+from media_workspace.config import apply_environment as _apply_workspace
+_apply_workspace()
+
+
 import argparse
 import base64
 import hashlib
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -20,10 +32,10 @@ from typing import Any
 from PIL import Image, ImageDraw, ImageOps
 
 
-DEFAULT_PIPER = Path("/home/derek/projects/readSelectedText/.venv/bin/piper")
-DEFAULT_VOICES = Path("/home/derek/.local/share/piper-tts/voices")
-DEFAULT_FFMPEG = Path("/home/derek/miniforge3/bin/ffmpeg")
-DEFAULT_FFPROBE = Path("/home/derek/miniforge3/bin/ffprobe")
+DEFAULT_PIPER = Path(os.environ.get("PIPER_BIN", "/home/derek/projects/readSelectedText/.venv/bin/piper"))
+DEFAULT_VOICES = Path(os.environ.get("PIPER_VOICES", "/home/derek/.local/share/piper-tts/voices"))
+DEFAULT_FFMPEG = Path(os.environ.get("FFMPEG_BIN", "/home/derek/miniforge3/bin/ffmpeg"))
+DEFAULT_FFPROBE = Path(os.environ.get("FFPROBE_BIN", "/home/derek/miniforge3/bin/ffprobe"))
 WORKFLOW_DIR = Path(__file__).resolve().parent
 DEFAULT_QWEN_START = WORKFLOW_DIR / "start_qwen_storybook.sh"
 DEFAULT_QWEN_STOP = WORKFLOW_DIR / "stop_qwen_storybook.sh"

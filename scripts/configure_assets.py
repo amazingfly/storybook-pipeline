@@ -34,8 +34,17 @@ def configure(images: Path, story: Path = ROOT) -> list[Path]:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--images-repo', type=Path, required=True)
+    parser.add_argument('--images-repo', type=Path)
+    parser.add_argument('--workspace', type=Path)
     args = parser.parse_args()
+    if args.images_repo is None:
+        import sys
+        sys.path.insert(0, str(ROOT))
+        from media_workspace.config import load_workspace
+        configured = load_workspace(args.workspace)['components'].get('images')
+        if not configured:
+            parser.error('Set images in the workspace config or pass --images-repo')
+        args.images_repo = Path(configured['root'])
     try:
         for target in configure(args.images_repo):
             print(target)

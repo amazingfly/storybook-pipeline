@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "status_definition": "supported = maintained entry point with CPU checks; GPU access/deployment is not implied. experimental = specialized recipe. archived = preserved, not the default.",
+  "workflows": [
+    {
+      "id": "storybook-production",
+      "status": "supported",
+      "entrypoints": [
+        "scripts/run_storybook.py",
+        "sdxl_littlequeen_v1/storybook_mvp_v1/run_storybook.sh"
+      ],
+      "requirements": "Images checkout/assets, Colab or Q8, Piper, FFmpeg"
+    },
+    {
+      "id": "qwen-review",
+      "status": "supported",
+      "entrypoints": [
+        "scripts/qwen35_storybook_local/render_storybook_qwen35.py"
+      ],
+      "requirements": "Qwen server and completed candidates"
+    },
+    {
+      "id": "curated-assembly",
+      "status": "supported",
+      "entrypoints": [
+        "scripts/build_curated_storybook.py"
+      ],
+      "requirements": "Reviewed selections, FFmpeg"
+    },
+    {
+      "id": "remote-qwen-review",
+      "status": "experimental",
+      "entrypoints": [
+        "scripts/qwen35_storybook_validation/"
+      ],
+      "requirements": "Remote model/runtime"
+    },
+    {
+      "id": "flux-storybook",
+      "status": "experimental",
+      "entrypoints": [
+        "scripts/flux2_storybook_colab/"
+      ],
+      "requirements": "FLUX model and Colab"
+    },
+    {
+      "id": "accessory-v1-v2",
+      "status": "archived",
+      "entrypoints": [
+        "sdxl_littlequeen_v1/colab_storybook_accessories_v1/",
+        "sdxl_littlequeen_v1/colab_storybook_accessories_v2/",
+        "agy/"
+      ],
+      "requirements": "Historical experiments"
+    },
+    {
+      "id": "accessory-v4-v5",
+      "status": "experimental",
+      "entrypoints": [
+        "sdxl_littlequeen_v1/colab_storybook_accessories_v4_auto/",
+        "sdxl_littlequeen_v1/colab_storybook_accessories_v5_good_enough/"
+      ],
+      "requirements": "Specialized recipes"
+    }
+  ]
+}

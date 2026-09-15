@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SERVER="/home/derek/.local/share/bonsai-q1-crack/llama.cpp/build/bin/llama-server"
-MODEL_DIR="/mnt/storage/projects/agentic/models/qwen35-4b-q6kl"
+SERVER="${QWEN_SERVER:-/home/derek/.local/share/bonsai-q1-crack/llama.cpp/build/bin/llama-server}"
+MODEL_DIR="${QWEN_MODEL_DIR:-/mnt/storage/projects/agentic/models/qwen35-4b-q6kl}"
 MODEL="${MODEL_DIR}/Qwen_Qwen3.5-4B-Q6_K_L.gguf"
 MMPROJ="${MODEL_DIR}/mmproj-Qwen_Qwen3.5-4B-bf16.gguf"
 PID_FILE="/tmp/lq_storybook_qwen35.pid"

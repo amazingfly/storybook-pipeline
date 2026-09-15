@@ -12,3 +12,5 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install -r requirements-dev.txt
       - run: python -m pytest
+      - run: python scripts/workspace.py verify
+      - run: python scripts/workspace.py catalog
